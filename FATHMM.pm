@@ -41,6 +41,7 @@
  > mysql -h[host] -P[port] -u[user] -p[pass] -Dfathmm < fathmm.v2.1.SQL
  > echo "[DATABASE]\nHOST = [host]\nPORT = [port]\nUSER = [user]\nPASSWD = [pass]\nDB = fathmm\n" > config.ini
 
+ Check for updates to the data and URLs listed above e.g. http://fathmm.biocompute.org.uk/database/fathmm.v2.3.SQL.gz
 =cut
 
 package FATHMM;
